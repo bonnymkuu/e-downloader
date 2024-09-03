@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navWhatsApp"
+            android:title="WhatsApp Normal"/>
+        <item
+            android:id="@+id/navBusinessWhatsApp"
+            android:title="WhatsApp Business"/>
+        <item
+            android:id="@+id/youtubeExtract"
+            android:title="Youtube Download"/>
+        <item
+            android:id="@+id/tiktok"
+            android:title="Tiktok Clips"/>
+        <item
+            android:id="@+id/instagram"
+            android:title="Instagram Videos"/>
+        <item
+            android:id="@+id/facebook"
+            android:title="Facebook Stories"/>
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/baseline_help_center_24"
+                android:title="Help"/>
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/baseline_settings_24"
+                android:title="Settings"/>
+            <item
+                android:id="@+id/navRate"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:title="Rate this App"/>
+        </menu>
+    </item>
+
+</menu>

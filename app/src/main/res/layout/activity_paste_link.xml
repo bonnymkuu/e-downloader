@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PasteLinkActivity">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_above="@id/editTextLink"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_marginBottom="30sp"/>
+    <EditText
+        android:id="@+id/editTextLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Paste YouTube link here"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_above="@id/buttonUpload"
+        android:layout_centerInParent="true"
+        android:background="@android:drawable/edit_text"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/buttonUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Link"
+        android:layout_centerInParent="true"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

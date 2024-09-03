@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "123461908141",
+    "project_id": "my-media-bb2c9",
+    "storage_bucket": "my-media-bb2c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123461908141:android:980e84b8e9bad2a65cf824",
+        "android_client_info": {
+          "package_name": "com.example.myvideo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS1JeyHd_6dF52aLoF23Rn2E1BmdufzxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
